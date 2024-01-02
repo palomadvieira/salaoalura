@@ -1,0 +1,175 @@
+
+body{
+    background-image: url(fundo.jpg);
+    background-repeat: repeat-y;
+    padding: 5px;
+    color: #372d20;
+    font-size: 20px;
+    font-family: noto serif;
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 5px;
+    height: 100px;
+   
+   
+}
+
+
+#alura{
+    display: inline-block;
+    Font-family: allura;
+    font-size: 40px;
+}
+#logo{
+    height: 100px;
+    width: 100px;
+}
+
+.menu{
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+   
+
+}
+img{
+    border-radius: 10px;
+   
+}
+header ul li {
+    display: inline;
+    margin-left: 20px;
+    font-size: 15px;
+    justify-content: space-around;
+    font-size: 20px;
+    
+}
+header ul li a {
+    color: #372d20;
+    text-decoration: solid;
+}
+
+main{
+    text-align: center;
+}
+
+#salao1{
+    border-radius: 25px;
+}
+.roll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  .card {
+    font-size: 12px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 20px;
+    margin: 20px;
+    width: 220px;
+    height: 315px;
+    transition: all 0.3s ease-out;
+    background-color: #8f6d5933;
+  }
+  #local{
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  }
+  .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #8c71611a;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: auto;
+  }
+  
+  .title {
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 700;
+ 
+    color: #1f2325;
+  }
+  
+  .description {
+    line-height: 1.5rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #403F3D;
+    font-size: 18px;
+  }
+  
+  .form div {
+    display: flex;
+    max-width: 28rem;
+    margin-top: 1rem;
+    column-gap: 0.5rem;
+  }
+  
+  .form div input {
+    outline: none;
+    line-height: 1.5rem;
+    font-size: 0.875rem;
+    color: rgb(255 255 255 );
+    padding: 0.5rem 0.875rem;
+    background-color: rgba(133, 133, 133, 0.05);
+    border: 1px solid #BFAC9B;
+    border-radius: 0.375rem;
+    flex: 1 1 auto;
+  }
+  
+  .form div input::placeholder {
+    color:#BFAC9B;
+  }
+  
+  .form div input:focus {
+    border: 2px solid #D9B589;
+  }
+  
+  .form div button {
+    color: #F2F2F2;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding: 0.625rem 0.875rem;
+    background-color: #BFAC9B;
+    border-radius: 0.375rem;
+    border: none;
+    outline: none;
+
+  }
+  .logo{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    }
+  #contato{
+    display: flex;
+    padding: 50px;
+    margin: 20px;
+    justify-content: space-around;
+
+  }
+
+  footer{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+  }
